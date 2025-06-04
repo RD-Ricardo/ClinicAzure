@@ -2,7 +2,7 @@
 
 # Projeto .NET + Azure Entra ID
 
-Este é um projeto de demonstração desenvolvido como parte do processo seletivo para a vaga Desenvolvedor Full Stack Pleno da AzureBrasil-cloud. O projeto utiliza **.NET Web API com front-end em [Angular]**, com integração à autenticação do **Azure Entra ID**.
+Este é um projeto de demonstração desenvolvido como parte do processo seletivo para a vaga Desenvolvedor Full Stack Pleno da AzureBrasil-cloud. O projeto utiliza **.NET Web API com front-end em Angular**, com integração à autenticação do **Azure Entra ID**.
 
 ## 🔗 Acesso à Aplicação
 
