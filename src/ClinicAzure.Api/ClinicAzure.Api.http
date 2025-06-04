@@ -1,0 +1,6 @@
+@ClinicAzure.Api_HostAddress = http://localhost:5122
+
+GET {{ClinicAzure.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
