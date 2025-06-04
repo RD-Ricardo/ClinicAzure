@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "clinic-az-api.fullname" . }}-test-connection"
+  labels:
+    {{- include "clinic-az-api.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "clinic-az-api.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
