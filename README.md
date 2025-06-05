@@ -1,5 +1,3 @@
-# ClinicAzure
-
 # Projeto .NET + Azure Entra ID
 
 Este é um projeto de demonstração desenvolvido como parte do processo seletivo para a vaga de Desenvolvedor Full Stack Pleno. O projeto utiliza **.NET Web API com front-end em Angular**, com integração à autenticação do **Azure Entra ID**.
